@@ -1,0 +1,133 @@
+.products_page {
+    height: 300vh;
+}
+.product_container {
+    background-color: F0F0F0;
+    height: max-content;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 2%;
+    padding: 2% 5%;
+}
+.product_card {
+    position: relative;
+    width: 100%;
+    height: 65vh;
+    background-color: white;
+    border: solid 1px var(--light-grey);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 5px;
+    gap: 2%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+
+    transition: linear 0.2s;
+}
+.product_card:hover {
+    border: solid #d15619 1px;
+    cursor: pointer;
+}
+.product_card img {
+    width: 90%;
+    height: auto;
+}
+.discount_container {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding-left: 10%;
+    gap: 3%;
+}
+.discount_container div {
+    font-size: 0.7rem;
+}
+.sale_percentage {
+    position: absolute;
+    background-color: #fee9e9;
+    padding: 5px;
+    text-align: center;
+    color: #d15619;
+    top: 20;
+    right: 20;
+}
+.near {
+    border: solid #d15619 1px;
+    padding: 1.5%;
+    color: #d15619;
+}
+.sale_off {
+    padding: 1.5%;
+    color: white;
+    background: orange;
+}
+.soldColumn {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-item: center;
+    gap: 40%;
+}
+.price {
+    align-self: center;
+    color: D15619;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.sold {
+    align-self: center;
+}
+.cart {
+    align-self: end;
+    margin-right: 10%;
+}
+/*-----------filter-section------*/
+.filters-container {
+    background-color: white;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 5%;
+}
+.filters-container select {
+    padding: 0.5rem 0.2rem;
+}
+.filters-container select {
+    border: none;
+}
+.filters-container button {
+    height: 60%;
+    padding: 0 0.4rem;
+    border: none;
+    margin-left: 0.5rem;
+    border-radius: 0.3rem;
+}
+.filters-container button:hover {
+    cursor: pointer;
+    background-color: white;
+}
+.pagination-container {
+    width: 52%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.pagination-container button {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-add-products {
+    width: 22%;
+    gap: 0.5rem;
+}
