@@ -22,7 +22,7 @@
                 <button>Cheap Deals</button>
             </form>
                 <div class="pagination-container">
-                    <button class="btn-add-products"><i class="fa-solid fa-add"></i> Add Products</button>
+                    <a href="/add-new-product" class="btn-add-products"><i class="fa-solid fa-add"></i> Add Products</a>
                     <button><i class="fa-solid fa-chevron-left"></i></button>
                     <button><i class="fa-solid fa-chevron-right"></i></button>
                 </div>
