@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Cart extends Model
 {
+    protected $fillable = ['product_name', 'product_quantity'];
     /** @use HasFactory<\Database\Factories\CartFactory> */
     use HasFactory;
 }

@@ -17,7 +17,9 @@ class CartFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            'product_name' => fake()->domainWord(),
+            'product_quantity' => fake()->numberBetween(1, 6),
+
         ];
     }
 }
